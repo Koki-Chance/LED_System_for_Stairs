@@ -1,0 +1,64 @@
+
+
+void Roulette_Stairs_UP_digital(int x, int y){    // 指標値① 高速 Roulette_Stairs(10000, 30);
+                                                  // 指標値② 中速 Roulette_Stairs(10000, 50);
+                                                  // 指標値③ 低速 Roulette_Stairs(10000, 100);
+  for (int i = 1; i <= x; i++ ){
+    digitalWrite(LED1, HIGH);
+    delay(y);
+    digitalWrite(LED1, LOW);
+    delay(y);
+    digitalWrite(LED2, HIGH);
+    delay(y);
+    digitalWrite(LED2, LOW);
+    delay(y);
+    digitalWrite(LED3, HIGH);
+    delay(y);
+    digitalWrite(LED3, LOW);
+    delay(y);
+    digitalWrite(LED4, HIGH);
+    delay(y);
+    digitalWrite(LED4, LOW);
+    delay(y);
+    digitalWrite(LED5, HIGH);
+    delay(y);
+    digitalWrite(LED5, LOW);
+    delay(y);
+    digitalWrite(LED6, HIGH);
+    delay(y);
+    digitalWrite(LED6, LOW);
+    delay(y);
+    digitalWrite(LED7, HIGH);
+    delay(y);
+    digitalWrite(LED7, LOW);
+    delay(y);
+    digitalWrite(LED8, HIGH);
+    delay(y);
+    digitalWrite(LED8, LOW);
+    delay(y);
+    digitalWrite(LED9, HIGH);
+    delay(y);
+    digitalWrite(LED9, LOW);
+    delay(y);
+    digitalWrite(LED10, HIGH);
+    delay(y);
+    digitalWrite(LED10, LOW);
+    delay(y);
+    digitalWrite(LED11, HIGH);
+    delay(y);
+    digitalWrite(LED11, LOW);
+    delay(y);
+    digitalWrite(LED12, HIGH);
+    delay(y);
+    digitalWrite(LED12, LOW);
+    delay(y);
+    digitalWrite(LED13, HIGH);
+    delay(y);
+    digitalWrite(LED13, LOW);
+    delay(y);
+    digitalWrite(LED14, HIGH);
+    delay(y);
+    digitalWrite(LED14, LOW);
+    delay(y);
+  }
+}

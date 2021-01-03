@@ -1,0 +1,62 @@
+
+
+void Wave_down(int p, int q){
+  for (int i = 1; i <= p; i++){       // p = ウェーブの回数, q = ディレイの時間(次のLEDの点灯までの待機時間)
+    digitalWrite(LED14,HIGH);
+    delay(q);
+    digitalWrite(LED14,LOW);
+    delay(q);
+    digitalWrite(LED13,HIGH);
+    delay(q);
+    digitalWrite(LED13,LOW);
+    delay(q);
+    digitalWrite(LED12,HIGH);
+    delay(q);
+    digitalWrite(LED12,LOW);
+    delay(q);
+    digitalWrite(LED11,HIGH);
+    delay(q);
+    digitalWrite(LED11,LOW);
+    delay(q);
+    digitalWrite(LED10,HIGH);
+    delay(q);
+    digitalWrite(LED10,LOW);
+    delay(q);
+    digitalWrite(LED9,HIGH);
+    delay(q);
+    digitalWrite(LED9,LOW);
+    delay(q);
+    digitalWrite(LED8,HIGH);
+    delay(q);
+    digitalWrite(LED8,LOW);
+    delay(q);
+    digitalWrite(LED7,HIGH);
+    delay(q);
+    digitalWrite(LED7,LOW);
+    delay(q);
+    digitalWrite(LED6,HIGH);
+    delay(q);
+    digitalWrite(LED6,LOW);
+    delay(q);
+    digitalWrite(LED5,HIGH);
+    delay(q);
+    digitalWrite(LED5,LOW);
+    delay(q);
+    digitalWrite(LED4,HIGH);
+    delay(q);
+    digitalWrite(LED4,LOW);
+    delay(q);
+    digitalWrite(LED3,HIGH);
+    delay(q);
+    digitalWrite(LED3,LOW);
+    delay(q);
+    digitalWrite(LED2,HIGH);
+    delay(q);
+    digitalWrite(LED2,LOW);
+    delay(q);
+    digitalWrite(LED1,HIGH);
+    delay(q);
+    digitalWrite(LED1,LOW);
+    delay(q);
+  }
+}
