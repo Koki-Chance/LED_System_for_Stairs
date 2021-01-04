@@ -10,7 +10,6 @@ To prevent an accident in stairs. This system automatically turns on the LEDs in
 - Photo cell (CdS photoresistor)
 - Passive infrared sensor
 - Ultrasonic Sensor
-- Object Detection
 - LED
 - Transistor
 - Resistor
